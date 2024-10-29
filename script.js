@@ -5,7 +5,7 @@ document.body.appendChild(videoElement);
 
 // Access the video element from the HTML
 const videoOverlay = document.getElementById('videoOverlay');
-videoOverlay.src = 'Denk_Interactive_Animation-HD.mp4';  // Ensure correct video path
+// videoOverlay.src = 'Denk_Interactive_Animation-HD.mp4';  // Ensure correct video path
 videoOverlay.pause();  // Pause the video initially
 videoOverlay.loop = false;  // Disable built-in loop (we'll manually handle looping)
 
