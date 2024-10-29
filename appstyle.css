@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Style to center the video and make it responsive */
+#videoOverlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Properly center the video */
+  width: 100vw;   /* Video width fills the viewport width */
+  height: 100vh;  /* Video height fills the viewport height */
+  object-fit:contain;  /* Maintain aspect ratio and cover the entire viewport */
+}
+
+/* Canvas styles */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
